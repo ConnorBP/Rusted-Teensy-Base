@@ -10,6 +10,7 @@ Some Spec Sheets:
 
 - [Teeny3.6 MK66FX1M0 Spec](https://www.pjrc.com/teensy/K66P144M180SF5RMV2.pdf)
 - [Teensy3.2 MK20DX256 Spec](https://www.pjrc.com/teensy/K20P64M72SF1RM.pdf)
+- [List of different teensy board specs](https://www.pjrc.com/teensy/techspecs.html)
 
 Also `thumbv7em-none-eabihf` in .cargo/config should be `thumbv7em-none-eabi` if your device does not have a floating point unit (FPU) on cortex M4 or M7, `thumbv6m-none-eabi` for Cortex-M0 or M0+, and `thumbv7m-none-eabi` for Cortex-M3.
 
