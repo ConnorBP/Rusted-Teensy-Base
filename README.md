@@ -36,7 +36,7 @@ $ rustup component add --target thumbv7em-none-eabihf rust-std --toolchain=night
 on Linux (with pacman utils):
 
 ```shell
-$ sudo pacman -S arm-none-eabihf-binutils
+$ sudo pacman -S arm-none-eabi-binutils
 ```
 
 on Mac (with Homebrew):

@@ -10,7 +10,7 @@ $(ELF):
 	cargo build --release --verbose
 
 $(HEX): $(ELF)
-	arm-none-eabihf-objcopy -O ihex $(ELF) $(HEX)
+	arm-none-eabi-objcopy -O ihex $(ELF) $(HEX)
 
 .PHONY: flash
 flash: $(HEX)
