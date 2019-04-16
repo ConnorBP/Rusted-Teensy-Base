@@ -1,0 +1,8 @@
+[build]
+#target = "thumbv7em-none-eabi"#Cortex-M4 and Cortex-M-7 (no fpu)
+target = "thumbv7em-none-eabihf" #Cortex-M4f and Cortex-M7F (with fpu) used by teensy 3.6
+
+[target.thumbv7em-none-eabihf]
+rustflags = [
+    "-C", "link-arg=-Tlayout.ld",
+]
